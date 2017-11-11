@@ -1,7 +1,7 @@
 Overview
 ========
 
-This program only run on Python3
+These Python programs only run on Python3
 
 
 Prerequisite
