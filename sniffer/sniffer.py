@@ -2,11 +2,14 @@
 
 import socket
 
+# change host ip u wanna sniff
+sniffer_target_host = '127.0.0.1'
+
 # create object
 sniff = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP)
 
 # bind data
-sniff.bind(('127.0.0.1', 0))
+sniff.bind((sniffer_target_host, 0))
 
 # socket option
 sniff.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
