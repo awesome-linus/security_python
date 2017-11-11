@@ -4,7 +4,7 @@ from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 import urllib.request
 
-url = 'http://awesome-linus.tk/wp-content/uploads/2017/08/cropped-cropped-seashore.jpg'
+url = 'https://s3-ap-northeast-1.amazonaws.com/petpedia/upload_by_admin/pipi_rabbit_ranking_800.jpg'
 
 getimage = url.split('/')[-1]
 
