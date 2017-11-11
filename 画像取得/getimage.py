@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 import urllib.request
@@ -18,4 +20,4 @@ except URLError as e:
     print('Reason: ', e.reason)
 else:
     urllib.request.urlretrieve(url, getimage)
-    print("File Saved as '" + getimage+ "'")
+    print("File Saved as '" + getimage + "'")
